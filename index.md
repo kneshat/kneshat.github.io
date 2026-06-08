@@ -1,5 +1,5 @@
 # Welcome
 
-Welcome to my website
+![profile](images/im.jpg)
 
 [View CV](CV.pdf)
