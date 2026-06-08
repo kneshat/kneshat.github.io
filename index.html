@@ -21,15 +21,22 @@
     }
 
     .content {
-      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
       margin-top: 140px;
-      color: #000;
+      gap: 60px;
+      padding: 0 40px;
+    }
+
+    .text {
+      max-width: 600px;
+      text-align: left;
     }
 
     img {
-      width: 400px;
+      width: 350px;
       border-radius: 50%;
-      margin-top: 20px;
     }
 
     a {
@@ -43,13 +50,13 @@
     }
 
     .section-title {
-      margin-top: 25px;
+      margin-top: 20px;
       font-size: 22px;
       font-weight: bold;
     }
 
     .subtitle {
-      font-size: 20px;
+      font-size: 18px;
       margin-top: 10px;
     }
   </style>
@@ -63,19 +70,28 @@
 
   <div class="content">
 
-    <h1>Dept. of Mathematics, Texas A&M University, College Station, TX, USA</h1>
+    <!-- LEFT SIDE TEXT -->
+    <div class="text">
+      <h2>Dept. of Mathematics, Texas A&M University, College Station, TX, USA</h2>
 
-    <p class="subtitle">
-      Advisor: <a href="https://franksottile.github.io/" target="_blank">Frank Sottile</a>
-    </p>
+      <p class="subtitle">
+        Advisor:
+        <a href="https://franksottile.github.io/" target="_blank">
+          Frank Sottile
+        </a>
+      </p>
 
-    <div class="section-title">Research</div>
+      <div class="section-title">Research</div>
 
-    <img src="images/im.jpg" alt="Profile image">
+      <p>
+        <a href="CV.pdf" target="_blank">View CV</a>
+      </p>
+    </div>
 
-    <p>
-      <a href="CV.pdf" target="_blank">View CV</a>
-    </p>
+    <!-- RIGHT SIDE IMAGE -->
+    <div>
+      <img src="images/im.jpg" alt="Profile image">
+    </div>
 
   </div>
 
