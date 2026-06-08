@@ -2,17 +2,59 @@
 <html>
 <head>
   <title>Welcome</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background-color: #2e6f5e; /* سبز یشمی */
+    }
+
+    .welcome {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: #7a8fa6; /* آبی خاکستری */
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .content {
+      text-align: center;
+      margin-top: 120px;
+    }
+
+    img {
+      width: 180px;
+      border-radius: 50%;
+    }
+
+    a {
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
 </head>
 
-<body style="text-align:center; font-family:Arial;">
+<body>
 
-  <h1>Khashayar Kai Neshat</h1>
+  <div class="welcome">Welcome</div>
 
-  <img src="images/im.jpg" width="180" style="border-radius:50%;">
+  <div class="content">
+    <h1 style="color:white;">Khashayar Kai Neshat</h1>
 
-  <p>
-    <a href="CV.pdf">View CV</a>
-  </p>
+    <img src="images/im.jpg">
+
+    <p>
+      <a href="CV.pdf">View CV</a>
+    </p>
+  </div>
 
 </body>
 </html>
